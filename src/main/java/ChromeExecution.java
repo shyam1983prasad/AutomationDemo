@@ -19,6 +19,7 @@ public class ChromeExecution implements Browser {
     public WebDriver start() {
         System.out.println("Starting chrome");
         WebDriver driver = new ChromeDriver();
+
         return driver;
 
 
