@@ -44,12 +44,15 @@ public class AnnodationProcessing {
     public String getDetail() {
         System.out.println("Annodation processing using annodate values ");
         System.out.println("Name : " +getName());
+        System.out.println("Annodation processing using annodate values ");
+
 
         if (getName().equals("muthu")) {
             city="Sunnyvayle";
 
         } else if (getName().equals("revanth")) {
             city="Santa Clara";
+
         }
 
         return " Detail : " +name+ " : " +city + " : " +state;
